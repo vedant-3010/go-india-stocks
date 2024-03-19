@@ -7,49 +7,51 @@ const marketStoriesData = [
     title: "Market Story 1",
     imageSrc: "/images/marketsix.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
   {
     id: 2,
     title: "Market Story 2",
     imageSrc: "/images/marketfive.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
   {
     id: 3,
     title: "Market Story 3",
     imageSrc: "/images/marketfour.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
   {
     id: 4,
     title: "Market Story 4",
     imageSrc: "/images/marketthree.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
   {
     id: 5,
     title: "Market Story 5",
     imageSrc: "/images/markettwo.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
   {
     id: 6,
     title: "Market Story 6",
     imageSrc: "/images/marketone.jpg",
     description:
-      "Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus enim viverra purus lobortis sollicitudin. Cras tellus est!",
   },
 ];
 
 const MarketStories = () => {
   return (
     <>
-      <div className="p-4 text-red-700 text-xl">MARKET STORIES</div>
+      <div className="p-4 text-red-700 text-xl font-bold bg-gray-200">
+        MARKET STORIES
+      </div>
       <div className="grid lg:grid-cols-2 ">
         {marketStoriesData.map((story) => (
           <div
@@ -70,7 +72,6 @@ const MarketStories = () => {
           </div>
         ))}
       </div>
-
     </>
   );
 };
