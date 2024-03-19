@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import DiscussionForum from './components/DiscussionForum';
 import MarketStories from './components/MarketStories';
+import Sidebar from './components/Sidebar';
 
 function Home() {
   const [currentTab, setCurrentTab] = useState(1);
@@ -29,6 +30,7 @@ function Home() {
 
   return (
     <>
+    <Sidebar />
       <div className="w-full md:hidden">
         <div className="items-center justify-center mb-2 flex flex-row ">
           <TabButton index={1} text="Discussion Forum" />

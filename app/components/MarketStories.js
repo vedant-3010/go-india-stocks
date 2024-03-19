@@ -49,14 +49,14 @@ const marketStoriesData = [
 const MarketStories = () => {
   return (
     <>
-      <div className="p-4 text-red-700 text-xl font-bold bg-gray-200">
+      <div className="p-4 text-red-700 text-xl font-bold bg-gray-200  hidden sm:block">
         MARKET STORIES
       </div>
       <div className="grid lg:grid-cols-2 ">
         {marketStoriesData.map((story) => (
           <div
             key={story.id}
-            className="m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat border-2 border-gray-300 hover:transform hover:scale-105 transition-transform"
+            className="m-6 md:m-3  overflow-hidden rounded-lg bg-cover bg-no-repeat border-2 border-gray-300 hover:transform hover:scale-105 transition-transform"
           >
             <Image
               width={600}
