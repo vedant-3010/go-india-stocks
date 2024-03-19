@@ -49,10 +49,10 @@ const marketStoriesData = [
 const MarketStories = () => {
   return (
     <>
-      <div className="p-4 text-red-700 text-xl font-bold bg-gray-200  hidden sm:block">
+      <div className="p-4 text-red-700 text-xl font-bold bg-gray-200  hidden sm:block w-1/2">
         MARKET STORIES
       </div>
-      <div className="grid lg:grid-cols-2 ">
+      <div className="grid lg:grid-cols-1 ">
         {marketStoriesData.map((story) => (
           <div
             key={story.id}
