@@ -15,7 +15,7 @@ const DiscussionCard = ({
   views,
   comments,
 }) => (
-  <div className="flex bg-white mt-10 w-full rounded-lg overflow-hidden shadow-xl">
+  <div className="flex bg-white mt-10 w-full rounded-lg overflow-hidden  border-2 border-gray-100 shadow-lg">
     <div className="flex items-start px-4 py-6">
       <Image
         width={60}
